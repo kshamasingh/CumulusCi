@@ -1,0 +1,14 @@
+Insert Contact:
+  sf_object: Contact
+  fields:
+  - DoNotCall
+  - Family__c
+  - FirstName
+  - HasOptedOutOfEmail
+  - HasOptedOutOfFax
+  - LastName
+  - Public_Figure__c
+  lookups:
+    ReportsToId:
+      table: Contact
+      after: Insert Contact
